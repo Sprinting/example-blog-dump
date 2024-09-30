@@ -1,77 +1,75 @@
+/* Calm Sunset Theme */
 body {
-  background-color: #f8f9fa;
-  color: #343a40;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  color: #37474f;
+  background-color: #fff3e0;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #e64a19;
 }
 
 a {
-  color: #007bff;
+  color: #f57c00;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #e65100;
+  text-decoration: none;
 }
 
 article {
   background-color: #fff;
-  border: none;
   border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
 }
 
 article:hover {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.breadcrumb {
+  color: #795548;
+}
+
+.breadcrumb-item.current {
+  color: #e64a19;
+}
+
+.pagination a,
+.pagination span {
+  border: 1px solid #f57c00;
+}
+
+.pagination span {
+  background-color: #f57c00;
+}
+
+select {
+  border: 1px solid #ffcc80;
+  background-color: #fff;
+  color: #37474f;
 }
 
 .tag {
-  background-color: #e9ecef;
-  color: #495057;
-  border-radius: 20px;
-  padding: 4px 12px;
+  background-color: #ffe0b2;
+  color: #f57c00;
   transition: background-color 0.3s ease;
 }
 
 .tag:hover {
-  background-color: #dee2e6;
+  background-color: #ffcc80;
 }
 
-.breadcrumb-item.current {
-  color: #495057;
-  font-weight: 600;
-}
-
-select {
-  background-color: #fff;
-  color: #343a40;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  padding: 6px 12px;
-  transition: border-color 0.3s ease;
-}
-
-select:focus {
-  border-color: #80bdff;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
-.pagination a, .pagination span {
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  color: #007bff;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.pagination a:hover {
-  background-color: #e9ecef;
-  border-color: #dee2e6;
-}
-
-.pagination span {
-  background-color: #007bff;
-  border-color: #007bff;
-  color: #fff;
+#theme-container {
+  margin-bottom: 20px;
+  text-align: right;
 }
