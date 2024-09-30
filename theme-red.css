@@ -1,0 +1,43 @@
+body {
+  background-color: #fff0f0;
+  color: #330000;
+}
+
+a {
+  color: #cc0000;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+article {
+  background-color: #fff;
+  border: 1px solid #ffcccc;
+}
+
+.tag {
+  background-color: #ffeeee;
+  color: #990000;
+}
+
+.breadcrumb-item.current {
+  color: #660000;
+}
+
+select {
+  background-color: #fff;
+  color: #330000;
+  border-color: #ffcccc;
+}
+
+.pagination a, .pagination span {
+  background-color: #fff;
+  border-color: #ffcccc;
+  color: #330000;
+}
+
+.pagination span {
+  background-color: #cc0000;
+  color: #fff;
+}
