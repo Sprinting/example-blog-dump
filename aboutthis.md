@@ -21,7 +21,3 @@ should be fairly easy to implement, if you want to, but please use an actual blo
 
 there is no backend - the app fetches files directly via an unauthenticated github api call, so you _will_ run into rate limits if you try 
 to actually serve your blog with this.
-
-If I feel like it, I may someday make it a fully featured site generator, but these are the vehicles I use to learn new tech, so it is unlikely. 
-
-you may find me at [kartikmudgal.com](kartikmudgal.com)
