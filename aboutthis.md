@@ -13,7 +13,7 @@ is the result.
 Next step, I have it generate a static-site generator in a language I do not know, 
 and see if it passes the test-cases my own generator already does
 
-[source-code](github.com/sprinting/simple-blog-gen) may be found here. comes with support for tagging, sorting, and grouping posts and a simple theme selector. 
+[source-code](www.github.com/sprinting/simple-blog-gen) may be found here. comes with support for tagging, sorting, and grouping posts and a simple theme selector. 
 
 tags are cosmetic - since the webapp is generated entirely client side, indexing or permalinking is not supported.
 
