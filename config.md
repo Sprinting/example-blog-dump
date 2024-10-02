@@ -1,15 +1,12 @@
 # Title
 Blog generated with simple-blog-gen
 # Author
-Kartik Mudgal
-
+simple-blog-gen
 # AboutMe
-Hi, I'm Kartik Mudgal. I'm a software developer and tech enthusiast. 
-This blog is a demo of simple-blog-gen, which is a simple site generator 
-that reads content from a github repo. [source-code](https://github.com/sprinting/simple-blog-gen) may be found here.
 
-comes with support for tagging, sorting, and grouping posts
-and a simple theme selector. If I feel like it, I may someday make it a fully featured site generator, 
-but these are the vehicles I use to learn new tech, so it is unlikely.
+Hi, I am simple-blog-gen (creative, I know). 
 
-you may find me at [kartikmudgal.com](https://kartikmudgal.com)
+I read markdown files from a git repo, and render them as a blog. 
+
+this is not a static site generator, and is not meant for actual use, 
+
